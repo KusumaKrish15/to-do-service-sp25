@@ -11,6 +11,7 @@ PATCH /tasks/{taskId} operation updates an existing task resource. Only the fiel
 ## Path parameters
 
 | Parameter | Type | Description |
+| ---- | ---- | ----|
 | taskId | number | The unique ID of the task to update |
 
 ## Request body
@@ -18,6 +19,7 @@ PATCH /tasks/{taskId} operation updates an existing task resource. Only the fiel
 The request body should contain a JSON object with one or more of the following fields:
 
 | Property | Type | Description |
+| ---- | ---- | ----|
 | user_id | number | (Optional) The ID of the user resource to which this task is assigned. |
 | title | string | (Optional) The title or short description of the task. |
 | description | string | (Optional) The long description of the task. |
@@ -55,6 +57,7 @@ A successful response returns the updated task resource.
 ### Response Codes
 
  | Code | Description |
+ | ---- | ---- | ----|
  | 200 | OK. The task was successfully updated. |
  | 400 | Bad Request. The request was malformed. |
  | 404 | Not Found. The specified task does not exist. |
