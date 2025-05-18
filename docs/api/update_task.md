@@ -9,11 +9,14 @@ Base Endpoint
 PATCH /tasks/{taskId} operation updates an existing task resource. Only the fields specified in the request body will be updated. To update a task in the service, the task must be added to the service first. Learn more about the [task resource](task.md).
 
 ## Path parameters
+
 | Parameter | Type | Description |
 | taskId | number | The unique ID of the task to update |
 
 ## Request body
+
 The request body should contain a JSON object with one or more of the following fields:
+
 | Property | Type | Description |
 | user_id | number | (Optional) The ID of the user resource to which this task is assigned. |
 | title | string | (Optional) The title or short description of the task. |
@@ -50,6 +53,7 @@ A successful response returns the updated task resource.
 }
 ```
 ### Response Codes
+
  | Code | Description |
  | 200 | OK. The task was successfully updated. |
  | 400 | Bad Request. The request was malformed. |
