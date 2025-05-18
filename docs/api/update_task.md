@@ -1,69 +1,45 @@
-PATCH /tasks/{taskId}
-Updates an existing task resource. Only the fields specified in the request body will be updated.
+# Update Task Resource
 
 Base Endpoint
+
+```shell
+
 {server_url}/tasks/{taskId}
-Path Parameters
-Parameter
+```
+PATCH /tasks/{taskId} operation updates an existing task resource. Only the fields specified in the request body will be updated. To update a task in the service, the task must be added to the service first. Learn more about the [task resource](task.md).
 
-Type
+## Path parameters
+| Parameter | Type | Description |
+| taskId | number | The unique ID of the task to update |
 
-Description
-
-taskId
-
-number
-
-The unique ID of the task to update
-
-Request Body
+## Request body
 The request body should contain a JSON object with one or more of the following fields:
+| Property | Type | Description |
+| user_id | number | (Optional) The ID of the user resource to which this task is assigned. |
+| title | string | (Optional) The title or short description of the task. |
+| description | string | (Optional) The long description of the task. |
+| due_date | string | (Optional) The ISO 8601 format of the date and time the task is due. |
+| warning | number | (Optional) The number of minutes relative to the due_date to alert the user of the task. This is normally a negative number to alert the user before the due_date. |
 
-Property
 
-Type
+### Resource properties
 
-Description
+**Sample `update task` resource**
 
-user_id
+```js
 
-number
-
-(Optional) The ID of the user resource to which this task is assigned
-
-title
-
-string
-
-(Optional) The title or short description of the task
-
-description
-
-string
-
-(Optional) The long description of the task
-
-due_date
-
-string
-
-(Optional) The ISO 8601 format of the date and time the task is due
-
-warning
-
-number
-
-(Optional) The number of minutes relative to the due_date to alert the user of the task. This is normally a negative number to alert the user before the due_date.
-
-Sample Request Body
 {
-  "title": "Grocery shopping updated",
+    "title": "Grocery shopping updated",
   "description": "eggs, bacon, gummy bears, milk"
 }
-Response
+```
+
+## Response
 A successful response returns the updated task resource.
 
-Sample Response
+### Sample Response
+
+```js
 {
   "user_id": 1,
   "title": "Grocery shopping updated",
@@ -72,28 +48,22 @@ Sample Response
   "warning": "-10",
   "id": 1
 }
-Response Codes
-Code
+```
+### Response Codes
+ | Code | Description |
+ | 200 | OK. The task was successfully updated. |
+ | 400 | Bad Request. The request was malformed. |
+ | 404 | Not Found. The specified task does not exist. |
 
-Description
+## Example Usage
 
-200
-
-OK. The task was successfully updated.
-
-400
-
-Bad Request. The request was malformed.
-
-404
-
-Not Found. The specified task does not exist.
-
-Example Usage
+```js
 curl -X PATCH {server_url}/tasks/1 \
   -H "Content-Type: application/json" \
   -d '{
         "title": "Grocery shopping updated",
         "description": "eggs, bacon, gummy bears, milk"
       }'
+```
+
 This endpoint allows partial updates to an existing task resource. Only the fields provided in the request body will be updated, while the other fields will remain unchanged.
