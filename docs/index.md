@@ -16,6 +16,8 @@ If this topic doesn't tell you what you want to know about
 the To-Do service, try one of these overview topics.
 
 * [_Placeholder_](./overviews/placeholder.md)
+* [To-Do Service API: Effortless to-do list integration](./overviews/to-do-overview_juliebro.md)
+* [Allena's To-Do Service Overview](./overviews/to-do-overview_allenaavila.md)
 
 ## Quickstart
 
