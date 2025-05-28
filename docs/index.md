@@ -36,6 +36,8 @@ After your system is ready, these tutorials show you how to perform common tasks
 
 * [Enroll a new user](tutorials/enroll-a-new-user.md)
 * [Add a new task](tutorials/add-a-new-task.md)
+* [Get all tasks](tutorials/get-all-tasks.md)
+* [Get a user by last name](tutorials/get-a-user-by-last-name.md)
 * [Change the due-date of a task _(coming soon)_](#tutorials)
 * [Delete a task _(coming soon)_](#tutorials)
 
