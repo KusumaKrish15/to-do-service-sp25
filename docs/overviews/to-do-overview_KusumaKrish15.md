@@ -12,7 +12,7 @@ Once your system is ready, you can follow these tutorials to perform common task
 
 - **Enroll a new user**: Learn how to enroll a new user in the To-Do Service. Refer to the User resource API reference.
 - **Add a new task**: Understand the process of adding a new task. Refer to the Task resource API reference.
-- **Update an existing task**: Learn how to update an existing task. Refer to the [`updating a task` resource](update_task.md).
+- **Update an existing task**: Learn how to update an existing task. Refer to the [`updating a task` resource](../update_task.md).
 
 ## API references
 
