@@ -23,6 +23,8 @@ the To-Do Service, try one of these overview topics.
 * [To-Do Overview](./overviews/to-do-overview_Marmelodov.md)
 * [Overview](./overviews/to-do-overview_Naem-J.md) - Jeff Naemura
 * [To-Do: API documentation for a lightweight task reminder service](./overviews/to-do-overview_arielleang.md)
+* [Juan Carlos' Overview](./overviews/to-do-overview_rgmejiagroup.md)
+* [Overview: To-Do Service API](./overviews/to-do-overview_mettedata.md)
 
 ## Quickstart
 
@@ -41,6 +43,8 @@ After your system is ready, these tutorials show you how to perform common tasks
 * [Enroll a new user](tutorials/enroll-a-new-user.md)
 * [Add a new task](tutorials/add-a-new-task.md)
 * [Change the due-date of a task _(coming soon)_](#tutorials)
+* [Delete a user](tutorials/delete-a-user-Kusuma.md)
+* [Update a task](tutorials/update-a-task.md)
 * [Delete a task _(coming soon)_](#tutorials)
 
 ## API reference docs

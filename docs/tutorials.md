@@ -11,3 +11,10 @@ before you start your first tutorial.
 
 * [Enroll a new user](tutorials/enroll-a-new-user.md)
 * [Add a new task](tutorials/add-a-new-task.md)
+Feature4
+* [Get a task by ID](tutorials/get-task-by-id.md)
+* [Get user by user ID](./tutorials/get-user-by-user-id.md)
+* [Get a user by last name](tutorials/get-a-user-by-last-name.md)
+* [Delete a task by ID](tutorials/delete-task-by-id.md)
+* [Update a task by ID](./tutorials/patch-update-task.md)
+* [Update a task](tutorials/update-a-task.md) main

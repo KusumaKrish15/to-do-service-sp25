@@ -43,6 +43,21 @@ Sample `task` resource
 
 ## READ
 
-* [Get all tasks _(coming soon)_](#resource-properties)
+* [Get all tasks](./get-tasks.md)
 * [Get task by ID _(coming soon)_](#resource-properties)
+Feature4
 * [Get task by user ID _(coming soon)_](#resource-properties)
+* [Get task by user ID](./tasks-get-tasks-by-user-id.md)
+* [get task with full-text search](./tasks-get-tasks-with-search)
+
+## Create
+
+* [Add a task resource](./tasks-add-a-task.md)
+
+## Update
+
+* [Put task by ID](./tasks-put-task-by-id.md)
+
+## Delete
+
+* [Delete a task by ID](./tasks-delete-id.md) main
